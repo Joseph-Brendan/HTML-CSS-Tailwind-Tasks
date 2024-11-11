@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    letter-spacing: -0.031rem;
+}
+
+.component-container{
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-component{
+    width: 100%;
+    height: auto;
+    border: 1px solid #d7d7d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.information-container{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    padding: 3rem 2rem 3rem 2rem;
+    border-right: 1px solid #d8d8d8;
+}
+
+.revenue-percent-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.revenue-container, .percent-container{
+    width: fit-content;
+    height: auto;
+}
+
+.revenue-container p{
+    font-weight: 600;
+    color: darkslategrey;
+}
+
+.percent-container p{
+    color: #555;
+}
+
+.amount-container{
+    width: fit-content;
+    height: auto;
+}
+
+.amount-container h1{
+    font-weight: 500;
+}
+
+.new p{
+    color: red;
+}
