@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    letter-spacing: -0.031rem;
+}
+
+.outer-container{
+    width: 100%;
+    height: auto;
+    background-color: #f4f5f6;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.days-container{
+    width: fit-content;
+    height: auto;
+}
+
+.days-container p{
+    font-weight: 600;
+}
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container{
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    border-right: 1px solid #d9d9d9;
+}
+
+.card-title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.card-title-container p{
+    font-weight: 600;
+    color: #555;
+}
+
+.bottom-details-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-bottom-details-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+    column-gap: 0.55rem;
+}
+
+.number-container{
+    width: fit-content;
+    height: auto;
+}
+
+.number-container h1{
+    color: #4F46E5;
+    font-weight: 600;
+}
+
+.from-container{
+    width: fit-content;
+    height: auto;
+}
+
+.from-container p{
+    color: #888;
+}
+
+.right-bottom-details-container{
+    width: fit-content;
+    height: auto;
+    background-color: #DCFCE7;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    column-gap: 0.6rem;
+    justify-content: start;
+    align-items: start;
+    border-radius: 100000rem;
+}
+
+.icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+.icon-container i{
+    color: #22C55E;
+}
+
+.percent-container{
+    width: fit-content;
+    height: auto;
+}
+
+.percent-container p{
+    color: #166545;
+    font-weight: 500;
+}

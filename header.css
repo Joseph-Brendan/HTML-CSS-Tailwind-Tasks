@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    letter-spacing: -0.031rem;
+}
+
+.header-section{
+    width: 100%;
+    height: auto;
+    background-color: #e3e3e3;
+    padding: 2rem 7rem 2rem 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    width: fit-content;
+    height: auto;
+}
+
+.logo-container h1{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+
+.right-content-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.navigation-menu{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.link-container{
+    width: fit-content;
+    height: auto;
+}
+
+a{
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.button-container button{
+    background-color: #355DFF;
+    color: white;
+    padding: 0.85rem 1rem 0.85rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1000000rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.container-section{
+    width: 100%;
+    height: auto;
+    background-color: #f8f8f8;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image-container{
+    width: 36%;
+    height: auto;
+    background-color: #e2e2e2;
+    padding: 7rem;
+    background-image: url("./images/image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    color: white;
+    font-style: italic;
+}

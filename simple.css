@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    letter-spacing: -0.031rem;
+}
+
+.outer-container{
+    width: 100%;
+    height:auto;
+    background-color: #F3F4F6;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.days-container{
+    width: fit-content;
+    height: auto;
+}
+
+.days-container p{
+    font-weight: 600;
+    color: #222;
+}
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 1.5rem;
+}
+
+.card-container{
+    width: 33%;
+    height: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.75rem;
+}
+
+.card-title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.card-title-container p{
+    font-weight: 500;
+}
+
+.number-container{
+    width: fit-content;
+    height: auto;
+}
+
+.number-container h1{
+    font-weight: 600;
+}
